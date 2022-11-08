@@ -97,6 +97,7 @@
             this.Controls.Add(this.aracBtn);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "arackiralamaFrm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Araç Kiralama";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
